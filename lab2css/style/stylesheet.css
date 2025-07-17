@@ -1,0 +1,28 @@
+.yellow-bg{
+    background-color: yellow;
+    text-decoration-line: underline;
+}
+
+.gray-bg{
+    background-color: gray;
+}
+
+#year{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+td{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+tr:hover{ /*ใช้สีอะไรก็ได้*/
+    background-color: pink;
+}
