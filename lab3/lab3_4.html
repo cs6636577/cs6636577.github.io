@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Form Execise</title>
+        <style>
+            table, td, tr{
+                border: 1px solid black;
+            }
+            button{
+                margin-top: 1.5rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>เข้าสู่ระบบ</h1>
+        <form action="Logout.html" method="get">
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" required autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">กรุณาพิมพ์ตามตัวเลขที่ปรากฏ: <br>1559<br>
+                        <input type="text" required pattern="1559">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">
+                <img src="login.png" width="100" height="80">
+            </button>
+        </form>
+    </body>
+</html>

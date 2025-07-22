@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 3.2</title>
+    </head>
+
+    <body>
+        <form>
+            <p><label>
+                11. รหัสผ่าน
+                <input type="text" placeholder="โปรดป้อนรหัสผ่าน" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{5,}$" title="รหัสผ่าน 5 อักขระขึ้นไป รหัสผ่านต้องประกอบด้วยอักขระตัวใหญ่ ตัวเล็กและตัวเลขอย่างน้อยชนิดละ 1 อักษร" required>
+            </label></p>
+
+            <p><label>
+                12. บ้านเลขที่
+                <input type="text" placeholder="โปรดป้อนบ้านเลขที่" pattern="^\d+(\/\d+)*$" title="บ้านเลขที่ต้องเป็นตัวเลข" required>
+            </label></p>
+
+            <p><label>
+                13. รหัสสินค้า
+                <input type="text" placeholder="โปรดป้อนรหัสสินค้า" pattern="^([A-Z]){3}\d{2}$" title="รหัสสินค้าต้องประกอบด้วยอักขระใหญ่ 3 ตัว ตามด้วยตัวเลข 2 ตัว" required>
+            </label></p>
+
+            <p><label>
+                14. ชื่อ-นามสกุล(ภาษาไทย)
+                <input type="text" placeholder="สมหญิง สุขใจ" pattern="^([ก-๙]+)\s[ก-๙]+$" title="ชื่อ-นามสกุลต้องเป็นภาษาไทยเท่านั้น และต้องพิมพ์ชื่อนามสกุลให้ครบ" required>
+            </label></p>
+            <button type="submit">ส่งข้อมูล</button>
+        </form>
+    </body>
+</html>

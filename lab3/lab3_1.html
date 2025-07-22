@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 3.1</title>
+    </head>
+    
+    <body>
+        <form>
+            1. ชื่อเต็ม/ย่อของสาขาวิชา
+            <input type="text" placeholder="โปรดป้อนชื่อเต็ม/ย่อคณะ">
+
+            <p><label>2. จำนวนเงินที่จะโอน
+            <input type="number" placeholder="โปรดป้อนจำนวนเงิน"></label></p>
+
+            <p>3. อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย : </p>
+            <p><label>อันดับที่1 :
+                <input type="text" placeholder="อาหารที่ชอบอันดับที่ 1"></label></p>
+            </label></p>
+            <p><label>อันดับที่2 :
+                <input type="text" placeholder="อาหารที่ชอบอันดับที่ 2"></label></p>
+            </label></p>
+            <p><label>อันดับที่3 :
+                <input type="text" placeholder="อาหารที่ชอบอันดับที่ 3"></label></p>
+            </label></p>
+            <p><label>อันดับที่4 :
+                <input type="text" placeholder="อาหารที่ชอบอันดับที่ 4"></label></p>
+            </label></p>
+            <p><label>อันดับที่5 :
+                <input type="text" placeholder="อาหารที่ชอบอันดับที่ 5"></label></p>
+            </label></p>
+
+            <label><p>4. ค่าไฟฟ้า 3 เดือนที่ผ่านมา
+            <input type="number" placeholder="โปรดป้อนค่าไฟฟ้า">
+            </label></p>
+            <p><label>
+                เมื่อสามเดือนที่แล้ว
+                <input type="date">
+            </label></p>
+
+            <p><label>5. รหัสบัตรประชาชน
+                <input type="text" placeholder="x-xxxx-xxxxx-xx-xx">
+            </label></p>
+
+            <label><p>6. ความพึงพอใจของหนังสือเล่มนี้<br>
+                <input type="radio" name="satisfaction" value="1"> พึงพอใจมาก
+                <input type="radio" name="satisfaction" value="2"> พอใจ
+                <input type="radio" name="satisfaction" value="3"> เฉยๆ
+                <input type="radio" name="satisfaction" value="4"> ไม่พอใจ
+                <input type="radio" name="satisfaction" value="5"> ไม่พอใจมาก
+            </label></p>
+
+            <p><label>7. อาการป่วย<br>
+                <input type="checkbox" name="illness" value="fever"> ไข้
+                <input type="checkbox" name="illness" value="cough"> ไอ
+                <input type="checkbox" name="illness" value="runny_nose"> น้ำมูกไหล
+                <input type="checkbox" name="illness" value="sore_throat"> เจ็บคอ
+                <input type="checkbox" name="illness" value="headache"> ปวดหัว
+                <input type="checkbox" name="illness" value="nausea"> คลื่นไส้อาเจียน
+                <input type="checkbox" name="illness" value="diarrhea"> ท้องเสีย
+                <input type="checkbox" name="illness" value="none"> ไม่มีอาการ
+                </label></p>
+            <label>
+                <input type="checkbox" name="other_illness" value="other"> อื่นๆ
+                <input type="text" placeholder="โปรดระบุอาการอื่นๆ">
+            </label>
+
+            <p><label>8. ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม้
+                <input type="radio" name="vaccine" value="yes"> เคย
+                <input type="radio" name="vaccine" value="no"> ไม่เคย
+            </label></p>
+
+            <p><label>
+                9. เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน
+                <input type="time" placeholder="เวลาเริ่มเรียน"> ถึง <input type="time" placeholder="เวลาสิ้นสุดการเรียน">
+            </label></p>
+
+            <p><label>
+                10. วันเวลาที่ต้องไปพบแพทย์
+                <input type="datetime-local" placeholder="โปรดป้อนวันและเวลา">
+            </label></p>
+
+            <input type="submit">ส่งข้อมูล</input>
+            <input type="reset">ล้างข้อมูล</input>
+        </form>
+    </body>
+</html>
