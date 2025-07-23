@@ -78,5 +78,26 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222831;
+    background-image: url("47-fractal-phantom-gradient-stripes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.welcome{
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10rem;
+    text-shadow: 2px 2px 8px gray;
+}
+
+hr{
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#home{
+    background-color: white;
+    color:black;
 }
